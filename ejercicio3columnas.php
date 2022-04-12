@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <!--    <link rel="stylesheet" href="bootstrap-5.1.-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap-5.1.-dist/js/bootstrap.bundle.min.js"> -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.bundle.min.js">
     <title>Ejercicio 3: Columnas</title>
 </head>
 <body>
