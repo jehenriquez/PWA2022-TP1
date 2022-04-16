@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.bundle.min.js">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+
+<div class="container">
+<div class="row">
+<div class="col">
+<h1>EJERCICIO 4</h1>
+</div>
+
+</div>
+
+<div class="row">
+<div class="col-lg col-md" style="background-color: #138D75;"> 
+<h2>Ejercicio 4</h2></div>
+<div class="col-lg col-md" style="background-color:#45B39D;">
+<h2>Ejercicio 4</h2></div>
+<div class="col-lg col-md" style="background-color: #138D75;"> 
+<h2>Ejercicio 4</h2></div>
+
+</div>
+<hr>
+<div class="row">
+<div class="col-lg col-md" style="background-color: #138D75;"> 
+<h2>Ejercicio 4</h2></div>
+<div class="col-lg col-md" style="background-color:#45B39D;">
+<h2>Ejercicio 4</h2></div>
+<div class="col-lg col-md" style="background-color: #138D75;"> 
+<h2>Ejercicio 4</h2></div>
+</div>
+<hr>
+<div class="row">
+<div class="col-lg col-md" style="background-color: #138D75;"> 
+<h2>Ejercicio 4</h2></div>
+<div class="col-lg col-md" style="background-color:#45B39D;">
+<h2>Ejercicio 4</h2></div>
+<div class="col-lg col-md" style="background-color: #138D75;"> 
+<h2>Ejercicio 4</h2></div>
+</div>
+
+<a href='index.php'>Volver a Ejercicio 0<a>
+</div>
+
+
+
+
+
+    
+</body>
+</html>
