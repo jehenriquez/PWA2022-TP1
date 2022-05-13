@@ -1,7 +1,7 @@
 # Bootstrap
 Proyecto practico 2022 realizado para Programación web avanzada, Fac. de Informática(UNCo)
 
-## Objectivo
+## Objetivo
 
 - Aprender diseño web responsivo con Bootstrap
 
