@@ -7,18 +7,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/bootstrap.bundle.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     </head>
+    <style>
+        h1.title_pers {
+            font-family: 'Square Peg', cursive;
+            text-align: center;
+            color: black;
+            font-size: 7em;
+        }
+    </style>
 
     <body>
         <!-- Header -->
         <div class="container ">
-            <div class="row d-flex justify-content-center">
-                <img src="img/cara.png" alt="" style="width: 50%;">
+            <div class="row" style="display: flex; justify-content: center;">
+                <img class="img-fluid" style="max-width: 50%; ;" src="img/cara.png" alt="">
+                <p class="fs-1 text ">
+                    <h1 class="title_pers">Moda Gatuna</h1>
+                </p>
             </div>
             <div class="row col">
                 <nav class="navbar navbar-expand-xxl navbar-light bg-light">
@@ -31,7 +46,7 @@
 
                             <ul class="navbar-nav mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" href="index.html">Index</a>
+                                    <a class="nav-link text-dark" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-dark" href="ejercicio1.html">Ejercicio 1</a>
@@ -127,48 +142,48 @@
                 <!-- Lista elementos -->
                 <div class="tab-pane show active" id="elemento-1">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-lg-4 col-md-12">
                             <!-- lista -->
                             <ul class="nav nav-pills flex-column">
                                 <li class="nav-item">
                                     <a id="lista1" class="nav-link active" type="button" role="tab">Disfraz de Gato de Navidad</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a id="lista2" class="nav-link">Traje fiesta</a>
+                                <li class="nav-item  d-none d-lg-block">
+                                    <a id="lista2" class="nav-link ">Traje fiesta</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista3" class="nav-link">Buzo Abrigo Ropa Gato Peluche</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista4" class="nav-link">Abrigo Ropa Gato Sweater Tejido Lana</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista5" class="nav-link">Cálido Suéter con adorno de lunares</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista6" class="nav-link">Capitán Milaneso</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista7" class="nav-link">Moño Cuello Gato </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista8" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista9" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista10" class="nav-link">Lion Mane</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista11" class="nav-link">Easy Joy Traje</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista12" class="nav-link">Hillylolly Jersey</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-sm-8 text-center">
+                        <div class="col-lg-8 col-md-12">
                             <!-- IMG -->
                             <img class="img-fluid img-thumbnail col-12" src="img/01.jpg" alt="">
                         </div>
@@ -205,48 +220,48 @@
                 <!-- Lista elementos -->
                 <div class="tab-pane" id="elemento-2">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-lg-4 col-md-12">
                             <!-- lista -->
                             <ul class="nav nav-pills flex-column">
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista1-2" class="nav-link">Disfraz de Gato de Navidad</a>
                                 </li>
                                 <li class="nav-item">
                                     <a id="lista2-2" class="nav-link active" type="button" role="tab">Traje fiesta</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista3-2" class="nav-link">Buzo Abrigo Ropa Gato Peluche</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista4-2" class="nav-link">Abrigo Ropa Gato Sweater Tejido Lana</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista5-2" class="nav-link">Cálido Suéter con adorno de lunares</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista6-2" class="nav-link">Cálido Suéter  con adorno </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista7-2" class="nav-link">Moño Cuello Gato </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista8-2" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista9-2" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista10-2" class="nav-link">Lion Mane</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista11-2" class="nav-link">Easy Joy Traje</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista12-2" class="nav-link">Hillylolly Jersey</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-sm-8 text-center">
+                        <div class="col-lg-8 col-md-12">
                             <!-- IMG -->
                             <img class="img-fluid img-thumbnail col-12" src="img/02.jpg" alt="">
                         </div>
@@ -282,48 +297,48 @@
                 <!-- Lista elementos -->
                 <div class="tab-pane" id="elemento-3">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-lg-4 col-md-12">
                             <!-- lista -->
                             <ul class="nav nav-pills flex-column">
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista1-3" class="nav-link">Disfraz de Gato de Navidad</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista2-3" class="nav-link">Traje fiesta</a>
                                 </li>
                                 <li class="nav-item">
                                     <a id="lista3-3" class="nav-link active" type="button" role="tab">Buzo Abrigo Ropa Gato Peluche</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista4-3" class="nav-link">Abrigo Ropa Gato Sweater Tejido Lana</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista5-3" class="nav-link">Cálido Suéter con adorno de lunares</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista6-3" class="nav-link">Cálido Suéter  con adorno </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista7-3" class="nav-link">Moño Cuello Gato </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista8-3" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista9-3" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista10-3" class="nav-link">Lion Mane</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista11-3" class="nav-link">Easy Joy Traje</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista12-3" class="nav-link">Hillylolly Jersey</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-sm-8 text-center">
+                        <div class="col-lg-8 col-md-12">
                             <!-- IMG -->
                             <img class="img-fluid img-thumbnail col-12" src="img/03.jpg" alt="">
                         </div>
@@ -359,48 +374,48 @@
                 <!-- Lista elementos -->
                 <div class="tab-pane" id="elemento-4">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-lg-4 col-md-12">
                             <!-- lista -->
                             <ul class="nav nav-pills flex-column">
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista1-4" class="nav-link">Disfraz de Gato de Navidad</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista2-4" class="nav-link">Traje fiesta</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista3-4" class="nav-link">Buzo Abrigo Ropa Gato Peluche</a>
                                 </li>
                                 <li class="nav-item">
                                     <a id="lista4-4" class="nav-link active" type="button" role="tab">Abrigo Ropa Gato Sweater Tejido Lana</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista5-4" class="nav-link">Cálido Suéter con adorno de lunares</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista6-4" class="nav-link">Cálido Suéter  con adorno </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista7-4" class="nav-link">Moño Cuello Gato </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista8-4" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista9-4" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista10-4" class="nav-link">Lion Mane</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista11-4" class="nav-link">Easy Joy Traje</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista12-4" class="nav-link">Hillylolly Jersey</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-sm-8 text-center">
+                        <div class="col-lg-8 col-md-12">
                             <!-- IMG -->
                             <img class="img-fluid img-thumbnail col-12" src="img/04.jpg" alt="">
                         </div>
@@ -436,48 +451,48 @@
                 <!-- Lista elementos -->
                 <div class="tab-pane" id="elemento-5">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-lg-4 col-md-12">
                             <!-- lista -->
                             <ul class="nav nav-pills flex-column">
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista1-5" class="nav-link">Disfraz de Gato de Navidad</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista2-5" class="nav-link">Traje fiesta</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista3-5" class="nav-link">Buzo Abrigo Ropa Gato Peluche</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista4-5" class="nav-link">Abrigo Ropa Gato Sweater Tejido Lana</a>
                                 </li>
                                 <li class="nav-item">
                                     <a id="lista5-5" class="nav-link active" type="button" role="tab">Cálido Suéter con adorno de lunares</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista6-5" class="nav-link">Cálido Suéter  con adorno </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista7-5" class="nav-link">Moño Cuello Gato </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista8-5" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista9-5" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista10-5" class="nav-link">Lion Mane</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista11-5" class="nav-link">Easy Joy Traje</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista12-5" class="nav-link">Hillylolly Jersey</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-sm-8 text-center">
+                        <div class="col-lg-8 col-md-12">
                             <!-- IMG -->
                             <img class="img-fluid img-thumbnail col-12" src="img/05.jpg" alt="">
                         </div>
@@ -513,48 +528,48 @@
                 <!-- Lista elementos -->
                 <div class="tab-pane" id="elemento-6">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-lg-4 col-md-12">
                             <!-- lista -->
                             <ul class="nav nav-pills flex-column">
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista1-6" class="nav-link">Disfraz de Gato de Navidad</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista2-6" class="nav-link">Traje fiesta</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista3-6" class="nav-link">Buzo Abrigo Ropa Gato Peluche</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista4-6" class="nav-link">Abrigo Ropa Gato Sweater Tejido Lana</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista5-6" class="nav-link">Cálido Suéter con adorno de lunares</a>
                                 </li>
                                 <li class="nav-item">
                                     <a id="lista6-6" class="nav-link active" type="button" role="tab">Cálido Suéter con adorno </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista7-6" class="nav-link">Moño Cuello Gato </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista8-6" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista9-6" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista10-6" class="nav-link">Lion Mane</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista11-6" class="nav-link">Easy Joy Traje</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista12-6" class="nav-link">Hillylolly Jersey</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-sm-8 text-center">
+                        <div class="col-lg-8 col-md-12">
                             <!-- IMG -->
                             <img class="img-fluid img-thumbnail col-12" src="img/06.jpg" alt="">
                         </div>
@@ -590,48 +605,48 @@
                 <!-- Lista elementos -->
                 <div class="tab-pane" id="elemento-7">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-lg-4 col-md-12">
                             <!-- lista -->
                             <ul class="nav nav-pills flex-column">
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista1-7" class="nav-link">Disfraz de Gato de Navidad</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista2-7" class="nav-link">Traje fiesta</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista3-7" class="nav-link">Buzo Abrigo Ropa Gato Peluche</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista4-7" class="nav-link">Abrigo Ropa Gato Sweater Tejido Lana</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista5-7" class="nav-link">Cálido Suéter con adorno de lunares</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista6-7" class="nav-link">Cálido Suéter  con adorno </a>
                                 </li>
                                 <li class="nav-item">
                                     <a id="lista7-7" class="nav-link active" type="button" role="tab">Moño Cuello Gato </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista8-7" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista9-7" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista10-7" class="nav-link">Lion Mane</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista11-7" class="nav-link">Easy Joy Traje</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista12-7" class="nav-link">Hillylolly Jersey</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-sm-8 text-center">
+                        <div class="col-lg-8 col-md-12">
                             <!-- IMG -->
                             <img class="img-fluid img-thumbnail col-12" src="img/07.jpg" alt="">
                         </div>
@@ -667,48 +682,48 @@
                 <!-- Lista elementos -->
                 <div class="tab-pane" id="elemento-8">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-lg-4 col-md-12">
                             <!-- lista -->
                             <ul class="nav nav-pills flex-column">
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista1-8" class="nav-link">Disfraz de Gato de Navidad</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista2-8" class="nav-link">Traje fiesta</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista3-8" class="nav-link">Buzo Abrigo Ropa Gato Peluche</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista4-8" class="nav-link">Abrigo Ropa Gato Sweater Tejido Lana</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista5-8" class="nav-link">Cálido Suéter con adorno de lunares</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista6-8" class="nav-link">Cálido Suéter  con adorno </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista7-8" class="nav-link">Moño Cuello Gato </a>
                                 </li>
                                 <li class="nav-item">
                                     <a id="lista8-8" class="nav-link active" type="button" role="tab">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista9-8" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista10-8" class="nav-link">Lion Mane</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista11-8" class="nav-link">Easy Joy Traje</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista12-8" class="nav-link">Hillylolly Jersey</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-sm-8 text-center">
+                        <div class="col-lg-8 col-md-12">
                             <!-- IMG -->
                             <img class="img-fluid img-thumbnail col-12" src="img/08.jpg" alt="">
                         </div>
@@ -744,48 +759,48 @@
                 <!-- Lista elementos -->
                 <div class="tab-pane" id="elemento-9">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-lg-4 col-md-12">
                             <!-- lista -->
                             <ul class="nav nav-pills flex-column">
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista1-9" class="nav-link">Disfraz de Gato de Navidad</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista2-9" class="nav-link">Traje fiesta</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista3-9" class="nav-link">Buzo Abrigo Ropa Gato Peluche</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista4-9" class="nav-link">Abrigo Ropa Gato Sweater Tejido Lana</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista5-9" class="nav-link">Cálido Suéter con adorno de lunares</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista6-9" class="nav-link">Cálido Suéter  con adorno </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista7-9" class="nav-link">Moño Cuello Gato </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista8-9" class="nav-link">Collar Corbata</a>
                                 </li>
                                 <li class="nav-item">
                                     <a id="lista9-9" class="nav-link active" type="button" role="tab">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista10-9" class="nav-link">Lion Mane</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista11-9" class="nav-link">Easy Joy Traje</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista12-9" class="nav-link">Hillylolly Jersey</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-sm-8 text-center">
+                        <div class="col-lg-8 col-md-12">
                             <!-- IMG -->
                             <img class="img-fluid img-thumbnail col-12" src="img/09.jpg" alt="">
                         </div>
@@ -822,48 +837,48 @@
                 <!-- Lista elementos -->
                 <div class="tab-pane" id="elemento-10">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-lg-4 col-md-12">
                             <!-- lista -->
                             <ul class="nav nav-pills flex-column">
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista1-10" class="nav-link">Disfraz de Gato de Navidad</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista2-10" class="nav-link">Traje fiesta</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista3-10" class="nav-link">Buzo Abrigo Ropa Gato Peluche</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista4-10" class="nav-link">Abrigo Ropa Gato Sweater Tejido Lana</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista5-10" class="nav-link">Cálido Suéter con adorno de lunares</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista6-10" class="nav-link">Cálido Suéter  con adorno </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista7-10" class="nav-link">Moño Cuello Gato </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista8-10" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista9-10" class="nav-link">Collar Corbata</a>
                                 </li>
                                 <li class="nav-item">
                                     <a id="lista10-10" class="nav-link active" type="button" role="tab">Lion Mane</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista11-10" class="nav-link">Easy Joy Traje</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista12-10" class="nav-link">Hillylolly Jersey</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-sm-8 text-center">
+                        <div class="col-lg-8 col-md-12">
                             <!-- IMG -->
                             <img class="img-fluid img-thumbnail col-12" src="img/disfraz.jpg" alt="">
                         </div>
@@ -899,48 +914,48 @@
                 <!-- Lista elementos -->
                 <div class="tab-pane" id="elemento-11">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-lg-4 col-md-12">
                             <!-- lista -->
                             <ul class="nav nav-pills flex-column">
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista1-11" class="nav-link">Disfraz de Gato de Navidad</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista2-11" class="nav-link">Traje fiesta</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista3-11" class="nav-link">Buzo Abrigo Ropa Gato Peluche</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista4-11" class="nav-link">Abrigo Ropa Gato Sweater Tejido Lana</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista5-11" class="nav-link">Cálido Suéter con adorno de lunares</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista6-11" class="nav-link">Cálido Suéter  con adorno </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista7-11" class="nav-link">Moño Cuello Gato </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista8-11" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista9-11" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista10-11" class="nav-link">Lion Mane</a>
                                 </li>
                                 <li class="nav-item">
                                     <a id="lista11-11" class="nav-link active" type="button" role="tab">Easy Joy Traje</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista12-11" class="nav-link">Hillylolly Jersey</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-sm-8 text-center">
+                        <div class="col-lg-8 col-md-12">
                             <!-- IMG -->
                             <img class="img-fluid img-thumbnail col-12" src="img/traje-de-recuperacion-profesional.jpg" alt="">
                         </div>
@@ -977,40 +992,40 @@
                 <!-- Lista elementos -->
                 <div class="tab-pane" id="elemento-12">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-lg-4 col-md-12">
                             <!-- lista -->
                             <ul class="nav nav-pills flex-column">
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista1-12" class="nav-link">Disfraz de Gato de Navidad</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista2-12" class="nav-link">Traje fiesta</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista3-12" class="nav-link">Buzo Abrigo Ropa Gato Peluche</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista4-12" class="nav-link">Abrigo Ropa Gato Sweater Tejido Lana</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista5-12" class="nav-link">Cálido Suéter con adorno de lunares</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista6-12" class="nav-link">Cálido Suéter  con adorno </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista7-12" class="nav-link">Moño Cuello Gato </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista8-12" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista9-12" class="nav-link">Collar Corbata</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista10-12" class="nav-link">Lion Mane</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item  d-none d-lg-block">
                                     <a id="lista11-12" class="nav-link">Easy Joy Traje</a>
                                 </li>
                                 <li class="nav-item">
@@ -1018,7 +1033,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-sm-8 text-center">
+                        <div class="col-lg-8 col-md-12">
                             <!-- IMG -->
                             <img class="img-fluid img-thumbnail col-12" src="img/hillylolly-jersey.jpg" alt="">
                         </div>
